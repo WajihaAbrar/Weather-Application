@@ -4,38 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Weather App</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Tuesday 12:44, Scattered Clouds
-          <br />
-          Humidity: 66%, Wind: 3.3km/h
-        </p>
-      </div>
-      <div>🌥️12℃</div>
-    </main>
-    <footer>
-      This project is coded by
-      <a href="https://github.com/WajihaAbrar" target="_blank">Wajiha Abrar</a>,
+    <div class="container">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter a city..." />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Paris</h1>
+          <p>
+            Tuesday 12:44, Scattered Clouds
+            <br />
+            Humidity: 66%, Wind: 3.3km/h
+          </p>
+        </div>
+        <div>🌥️12℃</div>
+      </main>
+      <footer>
+        This project is coded by
+        <a href="https://github.com/WajihaAbrar" target="_blank">Wajiha Abrar</a
+        >,
 
-      <a
-        href="https://github.com/WajihaAbrar/Weather-Application"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://my-forecast-weather.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+        <a
+          href="https://github.com/WajihaAbrar/Weather-Application"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://my-forecast-weather.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
+    <script src="src/script.js"></script>
   </body>
 </html>
