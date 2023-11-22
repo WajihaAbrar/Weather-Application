@@ -1,3 +1,14 @@
 body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Source Sans 3", sans-serif;
+}
+
+.weather-container {
+  background-image: url("img/weather-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 500px;
 }
