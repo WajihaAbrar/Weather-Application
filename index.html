@@ -15,21 +15,33 @@
   <body>
     <div class="weather-container">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." />
-          <input type="submit" value="Search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            class="search-input"
+            autofocus="on"
+            required
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Paris</h1>
-          <p>
-            Tuesday 12:44, Scattered Clouds
-            <br />
-            Humidity: 66%, Wind: 3.3km/h
-          </p>
+        <div class="temperature-container">
+          <div class="city">
+            <h1>Paris</h1>
+            <p>
+              Tuesday 12:44, Scattered Clouds
+              <br />
+              Humidity: 66%, Wind: 3.3km/h
+            </p>
+          </div>
+          <div class="temperature">
+            <div class="temperature-icon">🌥️</div>
+            <div class="temperature-value">12</div>
+            <div class="temperature-unit">℃</div>
+          </div>
         </div>
-        <div>🌥️12℃</div>
       </main>
       <footer>
         This project is coded by
