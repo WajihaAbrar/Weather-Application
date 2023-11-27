@@ -53,6 +53,7 @@ a {
   max-width: 650px;
   display: flex;
   justify-content: space-between;
+  margin: 15px 0;
 }
 
 .city h1 {
@@ -71,7 +72,7 @@ a {
 
 .temperature-icon {
   font-size: 35px;
-  margin-top: 15px;
+  margin: 10px 3px 0px 0px;
 }
 
 .temperature-value {
