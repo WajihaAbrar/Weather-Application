@@ -7,7 +7,7 @@ body {
   font-size: 20px;
 }
 a {
-  color: purple;
+  color: #ccd0c3;
 }
 
 .weather-container {
@@ -62,8 +62,9 @@ a {
 }
 
 .city p {
-  margin: 0;
+  margin: 5px 0px;
   padding: 0;
+  color: #ccd0c3;
 }
 .temperature {
   display: flex;
@@ -86,7 +87,7 @@ a {
 }
 footer {
   text-align: center;
-  color: #ccd0c3;
+  color: #fff;
   font-size: 16px;
   margin: 35px 0px;
 }
