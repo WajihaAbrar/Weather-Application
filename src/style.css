@@ -4,9 +4,10 @@ body {
   box-sizing: border-box;
   background: #ccd0c3;
   font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
 }
 a {
-  color: #018881;
+  color: purple;
 }
 
 .weather-container {
@@ -49,14 +50,20 @@ a {
 }
 
 .temperature-container {
+  max-width: 650px;
   display: flex;
   justify-content: space-between;
 }
 
 .city h1 {
   margin: 0;
+  font-size: 38px;
 }
 
+.city p {
+  margin: 0;
+  padding: 0;
+}
 .temperature {
   display: flex;
   margin-left: 0;
@@ -68,16 +75,17 @@ a {
 }
 
 .temperature-value {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 700;
 }
 
 .temperature-unit {
-  font-size: 35px;
-  margin-top: 11px;
+  font-size: 25px;
+  margin-top: 15px;
 }
 footer {
   text-align: center;
   color: #ccd0c3;
-  font-size: 15px;
+  font-size: 16px;
+  margin: 35px 0px;
 }
