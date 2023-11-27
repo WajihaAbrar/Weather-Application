@@ -1,4 +1,4 @@
-function eventHandler(event) {
+function searchHandler(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-input");
   let searchCity = document.querySelector("#search-city");
@@ -6,4 +6,4 @@ function eventHandler(event) {
 }
 
 let searchForm = document.querySelector("#search-form");
-searchForm.addEventListener("submit", eventHandler);
+searchForm.addEventListener("submit", searchHandler);
