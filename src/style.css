@@ -10,6 +10,10 @@ a {
   color: #ccd0c3;
 }
 
+strong {
+  color: #000;
+}
+
 .weather-container {
   background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/712/original/weather-background-image.jpg?1700662088");
   background-size: cover;
