@@ -2,30 +2,29 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: lightcyan;
+  background: whitesmoke;
   font-family: "Source Sans 3", sans-serif;
-  font-size: 20px;
-  color: #2b6193;
+  font-size: 18px;
+  color: palevioletred;
 }
 a {
-  /* color: #f9c23c; */
-  color: orangered;
+  color: blueviolet;
   font-weight: bold;
 }
 
 strong {
-  color: orangered;
+  color: lightseagreen;
 }
 
 .weather-container {
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/326/original/weather.jpg?1701256755");
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/713/original/weather-background.jpg?1700662097");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 80vh;
   height: 60vh;
   margin: 50px auto;
-  border: 1px solid black;
+  border: 1px solid lightblue;
   border-radius: 17px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding: 30px;
@@ -52,8 +51,8 @@ strong {
   border: none;
   margin-left: 5px;
   border-radius: 5px;
-  background: #2b6193;
-  color: #ccd0c3;
+  background: blueviolet;
+  color: #fff;
 }
 
 .temperature-container {
@@ -91,11 +90,11 @@ strong {
 
 .temperature-unit {
   font-size: 25px;
-  margin-top: 15px;
+  margin-top: 16px;
 }
 footer {
   text-align: center;
-  color: #ccd0c3;
+  color: #000;
   font-size: 16px;
   margin: 35px 0px;
 }
