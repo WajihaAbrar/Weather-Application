@@ -2,27 +2,30 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #ccd0c3;
+  background: lightcyan;
   font-family: "Source Sans 3", sans-serif;
   font-size: 20px;
+  color: #2b6193;
 }
 a {
-  color: #ccd0c3;
+  /* color: #f9c23c; */
+  color: orangered;
+  font-weight: bold;
 }
 
 strong {
-  color: #000;
+  color: orangered;
 }
 
 .weather-container {
-  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/712/original/weather-background-image.jpg?1700662088");
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/105/326/original/weather.jpg?1701256755");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 80vh;
   height: 60vh;
   margin: 50px auto;
-  border: 1px solid #01a496;
+  border: 1px solid black;
   border-radius: 17px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding: 30px;
@@ -36,7 +39,7 @@ strong {
   font-size: 18px;
   font-weight: 600;
   color: #02283d;
-  background: #ccd0c3;
+  background: whitesmoke;
   border: none;
   border-radius: 5px;
 }
@@ -49,7 +52,7 @@ strong {
   border: none;
   margin-left: 5px;
   border-radius: 5px;
-  background: #018881;
+  background: #2b6193;
   color: #ccd0c3;
 }
 
@@ -68,7 +71,7 @@ strong {
 .city p {
   margin: 5px 0px;
   padding: 0;
-  color: #ccd0c3;
+  color: #000;
 }
 .temperature {
   display: flex;
@@ -76,13 +79,14 @@ strong {
 }
 
 .temperature-icon {
-  font-size: 35px;
-  margin: 10px 3px 0px 0px;
+  width: 85px;
+  height: 85px;
 }
 
 .temperature-value {
   font-size: 55px;
   font-weight: 700;
+  line-height: 85px;
 }
 
 .temperature-unit {
@@ -91,7 +95,7 @@ strong {
 }
 footer {
   text-align: center;
-  color: #fff;
+  color: #ccd0c3;
   font-size: 16px;
   margin: 35px 0px;
 }

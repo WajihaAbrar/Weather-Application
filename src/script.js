@@ -11,8 +11,9 @@ function updateWeather(response) {
   let wind = response.data.wind.speed;
   let dayTime = document.querySelector("#day-time");
   let date = new Date(response.data.time * 1000);
-
-  console.log(response.data);
+  let weatherIcon = document.querySelector("#weather-icon");
+  weatherIcon.innerHTML = `<img src="${response.data.condition.icon_url}" class="temperature-icon" />`;
+  // console.log(response.data);
   dayTime.innerHTML = formateDate(date);
   humidityDescription.innerHTML = `${humidity}%`;
   windSpeed.innerHTML = `${wind} km/h`;
