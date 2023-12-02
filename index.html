@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="weather-container">
-      <header>
+      <header class="weather-search-bar">
         <form class="search-form" id="search-form">
           <input
             type="search"
@@ -30,20 +30,24 @@
       </header>
       <main>
         <div class="temperature-container">
-          <div class="city">
-            <h1 id="search-city"></h1>
+          <div class="city-weather">
+            <h1 id="search-city" class="city"></h1>
+            <div id="weather-icon"></div>
+            <div class="temperature">
+              <div class="temperature-value" id="temperature-value"></div>
+              <div class="temperature-unit">℃</div>
+            </div>
+          </div>
+          <div class="weather-details">
             <p>
-              <span id="day-time"></span>,
+              <span id="day-time"></span> <span class="haze"></span>
               <span id="weather-description"></span>
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
+              Humidity: <strong id="humidity"></strong
+              ><span class="wind"></span>
+              Wind:
               <strong id="wind-speed"></strong>
             </p>
-          </div>
-          <div class="temperature">
-            <div id="weather-icon"></div>
-            <div class="temperature-value" id="temperature-value"></div>
-            <div class="temperature-unit">℃</div>
           </div>
         </div>
         <div class="weather-forecast" id="forecast"></div>
