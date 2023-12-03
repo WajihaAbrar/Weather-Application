@@ -18,8 +18,8 @@ strong {
 
 .weather-container {
   width: 700px;
-  height: 600px;
-  margin: 30px auto;
+  height: 605px;
+  margin: 25px auto;
   background: #0b121e;
   border: 1px solid #0b121e;
   border-radius: 17px;
@@ -80,7 +80,7 @@ strong {
   padding-left: 234px;
 }
 .wind {
-  padding-left: 230px;
+  padding-left: 218px;
 }
 .temperature {
   display: flex;
