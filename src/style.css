@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #403a70;
+  background: lavender;
   font-family: "Source Sans 3", sans-serif;
   font-size: 18px;
   color: #a2a4ab;
@@ -17,8 +17,8 @@ strong {
 }
 
 .weather-container {
-  width: 700px;
-  height: 605px;
+  width: 645px;
+  height: 590px;
   margin: 25px auto;
   background: #0b121e;
   border: 1px solid #0b121e;
@@ -65,6 +65,7 @@ strong {
   grid-template-columns: 300px 500px;
   grid-gap: 0px;
   padding: 10px 0px 0px 30px;
+  color: #fcb83c;
 }
 
 .weather-details {
@@ -96,7 +97,7 @@ strong {
   position: relative;
   right: 10px;
   top: -10px;
-  left: 120px;
+  left: 100px;
 }
 
 .temperature-value {
@@ -142,9 +143,82 @@ strong {
   padding: 0 10px;
 }
 footer {
-  color: #4e5865;
+  color: grey;
   font-size: 17px;
   text-align: center;
-  margin: 25px auto;
-  padding-top: 10px;
+  margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+  .weather-container {
+    width: 350px;
+    height: 600px;
+    margin: 25px auto;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .weather-search-bar {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .search-input {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .search-button {
+    font-size: 14px;
+  }
+  .city {
+    font-size: 30px;
+  }
+  .temperature-value {
+    font-size: 45px;
+  }
+  .temperature-unit {
+    font-size: 22px;
+    margin-top: 12px;
+  }
+  .temperature-icon {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: -130px;
+  }
+  .temperature {
+    top: -30px;
+  }
+  .weather-details {
+    font-size: 16px;
+    padding: 10px 18px;
+  }
+  .haze {
+    padding-left: 15px;
+  }
+  .wind {
+    padding-left: 10px;
+  }
+  .weather-forecast {
+    width: 85%;
+    justify-content: space-evenly;
+    padding: 25px 10px;
+  }
+
+  .weather-forecast-date {
+    font-size: 16px;
+  }
+  .weather-forecast-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .weather-forecast-temperatures {
+    font-size: 16px;
+  }
+  .weather-forecast-temperature {
+    padding: 0 5px;
+  }
+  footer {
+    font-size: 12px;
+    margin: 20px auto;
+  }
 }
